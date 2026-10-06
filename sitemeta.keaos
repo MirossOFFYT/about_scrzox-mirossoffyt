@@ -1,0 +1,41 @@
+[keafile]
+
+_ENTRY_
+
+name: "sitemeta.keaos";
+description: "Site metadata for the website";
+
+version: "1.0";
+
+page: 1;
+file: 2;
+
+privateport: 2007,
+publicport: 80;
+
+protocol: [
+    "http",
+    "https"
+    ];
+host: "rucc.be",
+fullhost: "https://scrzox.rucc.be",
+mainfile: "index.html",
+type: "website",
+language: "en",
+codelanguage: "keaos",
+codelanguagewebsite: "html",
+contenttype: "text/html",
+codetype: "UTF-8",
+
+webhost: "Discode Studio",
+webservice: "Signabroam",
+webdomain: "rucc.be",
+
+website_subject: "About MirossOffYT / Scrzox",
+website_description: "This is the official website of MirossOffYT / Scrzox, a content creator and developer. Here you can find information about their projects, services, and contact details.",
+
+note: "This is a beta of the Kea Language used for a website metadata file. It is not yet fully implemented and may change in future versions.";
+note2: "More informations can be found at https://github.com/Discode-Studio/KEA-language";
+note3: "Basically this metadate file is an exemple of what it can be used for, its not very useful for now, but its a real metadate file tho, it really work, but not very efficient on html/websites, keafile is mainly a language used for data storage and things like what json can support."
+
+_END_
